@@ -1,0 +1,282 @@
+#serviceheader {
+  width: 100%;
+  background: linear-gradient(
+    rgba(246, 245, 245, 0.1),
+    rgba(242, 242, 242, 0.1)
+  );
+}
+#serviceheader .head-con {
+  width: 85%;
+  padding: 60px 0px;
+  margin-top: 10%;
+}
+#servicepart .link {
+  transition: 500ms;
+}
+
+#service{
+  overflow-x: hidden !important;
+}
+#servicepart .link:hover{
+ background-color: white !important;
+ color: #470545 !important;
+}
+#serviceheader .head-con h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 105px;
+  color: #ffffff;
+}
+#service {
+  background-image: url(../../../assets/images/landing.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  }
+#serviceheader .head-con .col-xl-7 {
+  position: relative;
+}
+#serviceheader .head-con p {
+  width: 90% !important;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+}
+.ser-head-pic {
+  width: 30%;
+  height: 400px;
+  background: #8d8e8d;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://media.istockphoto.com/id/1393120851/photo/real-estate-agents-present-and-consult-with-clients-to-decide-whether-to-sign-home-insurance.webp?b=1&s=170667a&w=0&k=20&c=ygfTy1WJEceQHDXVc99ynNwa6A5lkpXJX1puW_UalPY=);
+  position: absolute;
+  top: -45%;
+  transition: 500ms;
+  filter: brightness(80%);
+}
+.ser-head-pic:hover,.sec-head-pic:hover{
+  cursor: pointer;
+  filter: brightness(100%);
+
+}
+.sec-head-pic {
+  width: 27%;
+  height: 300px;
+  background: #8d8e8d;
+  border-radius: 20px;
+  position: absolute;
+  left: 34%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  top: 31%;
+  transition: 500ms;
+  filter: brightness(80%);
+}
+#servicepart {
+  width: 100%;
+}
+#servicepart .serv-title {
+  width: 85%;
+  margin: 50px auto;
+  padding: 20px 0px;
+}
+#servicepart .serv-title .right-icon{
+  margin: 0px 10px;
+  color: #fff;
+}
+#servicepart .serv-title span,
+#servicepart .serv-title a {
+  color: #aba7a7;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#servicepart .serv-title span {
+  color: #fff;
+}
+#servicepart .container-fluid {
+  width: 85%;
+  margin: 0px auto;
+}
+#servicepart .container-fluid .col-xl-6 {
+  color: #fff;
+  margin-top: 10%;
+  border-radius: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#servicepart .container-fluid .col-pic {
+  position: relative;
+}
+#servicepart .container-fluid .col-inf {
+  width: 40%;
+  margin-left: 50px;
+}
+#servicepart .container-fluid .col-xl-6 .col-det {
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+  cursor: pointer;
+}
+#servicepart .container-fluid .col-xl-6 h3 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 10px;
+}
+#servicepart .container-fluid .col-xl-6 p {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(248 246 246);
+  margin: 20px 0px;
+  margin-left: 10px;
+}
+#servicepart .container-fluid .col-xl-6 ul li {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#servicepart .container-fluid .col-xl-6 a {
+  padding: 15px 30px;
+  margin-left: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 10000px;
+  background-color: #470545;
+}
+.col-pic {
+  background-color: red;
+}
+#service .search-item{
+  display: flex !important;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #serviceheader .head-con h1 {
+    font-size: 40px;
+  }
+  #serviceheader .head-con p {
+    font-size: 18px;
+  }
+  .ser-head-pic,
+  .sec-head-pic {
+    display: none;
+  }
+  #servicepart .container-fluid .col-pic {
+    width: 100% !important;
+    height: 300px;
+  }
+  #servicepart .container-fluid .col-xl-6 h3 {
+    font-size: 25px;
+    width: 100%;
+    line-height: 35px;
+  }
+  #servicepart .col-ul {
+    display: none;
+  }
+  #servicepart .container-fluid .col-inf {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #servicepart .container-fluid .col-xl-6 p {
+    font-size: 16px;
+  }
+  #servicepart .container-fluid .col-xl-6 ul li {
+    font-size: 16px;
+  }
+  #footer .foot-title input {
+    width: 70% !important;
+  }
+  #footer .foot-title button {
+    width: 25% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .ser-head-pic,
+  .sec-head-pic {
+    display: none;
+  }
+  #servicepart .container-fluid .col-xl-6 h3 {
+    font-size: 25px;
+    line-height: 39px;
+    margin-top: 30px;
+  }
+  #servicepart .container-fluid .col-xl-6 p,
+  #servicepart .container-fluid .col-xl-6 ul li {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #servicepart .container-fluid .col-pic {
+    height: 450px;
+  }
+  .col-ul {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .ser-head-pic,
+  .sec-head-pic {
+    display: none;
+  }
+  .ser-head-pic,
+  .sec-head-pic {
+    display: none;
+  }
+  .col-ul {
+    display: none;
+  }
+  #servicepart .container-fluid .col-xl-6 h3 {
+    font-size: 25px;
+    line-height: 39px;
+    margin-top: 30px;
+  }
+  #servicepart .container-fluid .col-xl-6 p,
+  #servicepart .container-fluid .col-xl-6 ul li {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .ser-head-pic,
+  .sec-head-pic {
+    display: none;
+  }
+  #servicepart .container-fluid .col-xl-6 h3 {
+    font-size: 25px;
+    line-height: 39px;
+    margin-top: 30px;
+  }
+  #servicepart .container-fluid .col-xl-6 p,
+  #servicepart .container-fluid .col-xl-6 ul li {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .ser-head-pic,
+  .sec-head-pic {
+    width: 30%;
+  }
+  .sec-head-pic {
+    margin-left: 20px;
+  }
+}

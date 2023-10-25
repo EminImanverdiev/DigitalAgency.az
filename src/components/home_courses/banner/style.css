@@ -1,0 +1,238 @@
+.coursesBanner {
+  width: 100%;
+  height: 640px;
+  display: flex;
+  align-items: flex-start;
+}
+.coursesBanner .bannerWrapper {
+  display: flex !important;
+  margin-top: 60px;
+}
+.coursesBanner .bannerWrapper .imgWrapper {
+  width: 600px;
+  height: 600px;
+  transform: translateY(-80px);
+}
+.coursesBanner .bannerWrapper .imgWrapper img {
+  width: 100%;
+  height: 100%;
+}
+.coursesBanner .bannerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+  padding: 60px 0;
+  padding-right: 60px;
+}
+.coursesBanner .bannerContent h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0.5px;
+}
+.coursesBanner .bannerContent span {
+  color: #fff;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+}
+.coursesBanner .bannerContent p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 20px;
+}
+.coursesBanner .bannerContent .applyBtn {
+  font-size: 20px;
+  line-height: 24px;
+  color: #1411a1;
+  text-decoration: none;
+  background: #fff;
+  padding: 16px 32px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  margin-top: 14px;
+}
+.coursesBanner .bannerContent .applyBtn:hover {
+  color: #fff;
+  background: #1411a1;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.coursesBanner .slick-dots {
+  bottom: 130px !important;
+}
+.coursesBanner .slick-dots li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background: gray;
+}
+.coursesBanner .slick-dots li.slick-active {
+  border-radius: 50%;
+  background: #fff;
+}
+.coursesBanner .bannerWrapperNext {
+  display: flex !important;
+  gap: 40px;
+  /* margin-top: 60px; */
+  width: 100%;
+}
+.coursesBanner .bannerWrapperNext .bannerContent {
+  width: 40%;
+}
+.coursesBanner .bannerWrapperNext .bannerContent h6 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.coursesBanner .bannerWrapperNext .bannerContent h5 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
+.coursesBanner .bannerWrapperNext .bannerContent p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+}
+.coursesBanner .bannerWrapperNext .imgWrapper {
+  width: 50%;
+  background: red;
+  border-radius: 8px;
+  overflow: hidden;
+  transform: translateY(40px);
+}
+.coursesBanner .bannerWrapperNext .imgWrapper img {
+  width: 100%;
+  height: 100%;
+}
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+  .coursesBanner {
+    max-height: 500px;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+
+  .coursesBanner .bannerContent {
+    width: 100%;
+    padding: 0;
+  }
+
+  .coursesBanner .bannerContent h1 {
+    font-size: 46px;
+  }
+  .coursesBanner .bannerWrapper .imgWrapper {
+    display: none;
+  }
+
+  .coursesSliderWrapper .sliderWrapper {
+    margin-bottom: 150px;
+  }
+  .coursesBanner .bannerWrapperNext {
+    display: flex !important;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+  .coursesBanner .bannerWrapperNext .bannerContent {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .coursesBanner .bannerWrapperNext .imgWrapper {
+    display: none;
+  }
+  .coursesBanner .bannerWrapperNext .bannerContent h6 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+  }
+  .coursesBanner .bannerWrapperNext .bannerContent h5 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .coursesBanner .bannerWrapperNext .bannerContent p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .coursesBanner .bannerWrapperNext {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 60px;
+  }
+  .coursesBanner .bannerWrapperNext .bannerContent {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .coursesBanner .bannerWrapperNext .imgWrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .coursesBanner .bannerWrapperNext {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 60px;
+  }
+  .coursesBanner .bannerWrapperNext .bannerContent {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  .coursesBanner .bannerWrapperNext .imgWrapper {
+    width: 100%;
+  }
+  .coursesBanner .bannerWrapperNext .bannerContent {
+    width: 100%;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .coursesBanner .bannerWrapperNext {
+    display: flex !important;
+    flex-direction: row;
+  }
+  .coursesBanner .bannerWrapperNext .bannerContent {
+    width: 100%;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .coursesBanner .bannerWrapperNext {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .coursesBanner .bannerWrapperNext .bannerContent {
+    width: 100%;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

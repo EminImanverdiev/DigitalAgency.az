@@ -1,0 +1,147 @@
+.coursesSection {
+  min-height: 100vh;
+  background: url("../../assets/images/fiqure.png"),
+    linear-gradient(90.09deg, #0e0eab 5.59%, #2121b9 23.01%, #6363f4 99.95%);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: relative;
+}
+.coursesSection .sliderWrapper {
+  margin: 200px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coursesSection .sliderWrapper .slider {
+  width: 70%;
+  text-align: center;
+}
+.coursesSection .sliderWrapper .slider .slick-prev:before,
+.coursesSection .sliderWrapper .slider .slick-next:before {
+  font-size: 48px;
+}
+.coursesSection .sliderWrapper .slider h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0.5px;
+}
+
+.slick-prev:before {
+  content: "<" !important;
+}
+.slick-next:before {
+  content: ">" !important;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+  .coursesSection .sliderWrapper {
+    margin-bottom: 0;
+  }
+  .coursesSection .courseSliderWrapper {
+    margin-top: 0;
+  }
+  .coursesSection .sliderWrapper .slider .slick-prev:before,
+  .coursesSection .sliderWrapper .slider .slick-next:before {
+    font-size: 32px;
+  }
+  .coursesSection .sliderWrapper .slider h2 {
+    color: #fff;
+    font-size: 21px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .coursesSection .sliderWrapper .slider .slick-prev:before,
+  .coursesSection .sliderWrapper .slider .slick-next:before {
+    font-size: 38px;
+  }
+  .coursesSection .sliderWrapper {
+    margin: 80px 0;
+    margin-bottom: 0;
+  }
+  .coursesSection .sliderWrapper .slider h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .coursesSection .sliderWrapper .slider .slick-prev:before,
+  .coursesSection .sliderWrapper .slider .slick-next:before {
+    font-size: 48px;
+  }
+  .coursesSection .sliderWrapper {
+    margin: 130px 0;
+  }
+  .coursesSection .sliderWrapper .slider h2 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .coursesSection .sliderWrapper .slider .slick-prev:before,
+  .coursesSection .sliderWrapper .slider .slick-next:before {
+    font-size: 48px;
+  }
+  .coursesSection .sliderWrapper .slider h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .coursesSection .courseSliderBox .sliderWrapper {
+    padding: 0;
+    margin: 0;
+  }
+  .coursesSection .courseSliderBox .sliderWrapper .slider .slick-prev:before,
+  .coursesSection .courseSliderBox .sliderWrapper .slider .slick-next:before {
+    font-size: 48px;
+    display: none;
+  }
+  .sliderWrapper .slick-dots {
+    position: absolute;
+    bottom: -46px;
+  }
+  .sliderWrapper .slick-dots li {
+    background: #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .coursesSection .sliderWrapper {
+    margin: 130px 0;
+    padding-bottom: 180px;
+  }
+  .coursesSection .sliderWrapper .slider h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0.5px;
+  }
+  .coursesSection .sliderWrapper button.slick-arrow {
+    display: block !important;
+  }
+  .slick-prev:before {
+    content: "<" !important;
+  }
+  .slick-next:before {
+    content: "/>" !important;
+  }
+}

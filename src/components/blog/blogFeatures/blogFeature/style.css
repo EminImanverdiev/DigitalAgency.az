@@ -1,0 +1,29 @@
+.blogFeature {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 242px;
+}
+.blogFeature span {
+  font-size: 128px;
+  line-height: 112px;
+  color: #fff;
+}
+.blogFeature h5 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #fff;
+}
+.blogFeature p.featureContent {
+  color: #f6f6f6;
+  line-height: 32px;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+  .blogFeature {
+    max-width: 100%;
+  }
+}

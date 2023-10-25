@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@100&display=swap');
+#projectheader{
+    width: 100%;
+    background: linear-gradient(rgba(246, 245, 245, 0.1),rgba(242, 242, 242, 0.1));
+}
+::-webkit-scrollbar{
+    width: 2px;
+    border-radius: 102px !important;
+}
+#project{
+    overflow-x: hidden !important;
+}
+#projectitem{
+    background: linear-gradient(45deg, #CC00FF 0%, #CB00FF 7.73%, #C800FF 14.89%, #C200FF 21.56%, #BB00FF 27.83%, #B100FF 33.79%, #A600FF 39.53%, #9900FF 45.14%, #8B00FF 50.7%, #7B00FF 56.3%, #6900FF 62.04%, #5700FE 68%);
+}
+#projectheader .head-con{
+    width: 85%;
+    padding: 60px 0px;
+    margin-top: 10%;
+    color: white;
+}
+#projectpart .link {
+    transition: 500ms;
+  }
+  #projectpart .link:hover{
+   background-color: white !important;
+   color: #470545 !important;
+  }
+#project{
+    background-image: url(../../../assets/images/landing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    }
+#projectheader .head-con h1{
+font-family: Roboto;
+font-size: 90px;
+font-weight: 700;
+line-height: 105px;
+}
+#projectheader .head-con .col-xl-7{
+    position: relative;
+}
+#projectheader .head-con p{
+font-family: Roboto;
+width: 90% !important;
+font-size: 24px;
+font-weight: 400;
+line-height: 38px;
+}
+#projectpart .col-inf{
+    width: 40%;
+    margin-left: 50px;
+}
+.ser-head-pic{
+    width: 27%;
+    height: 400px;
+    background: #8D8E8D;
+    border-radius: 20px;
+    position: absolute;
+    top: -45%;
+}
+.sec-head-pic{
+    width: 27%;
+    height: 300px;
+    background: #8D8E8D;
+    border-radius: 20px;
+    position: absolute;
+    left: 32%;
+    top: 31%;
+}
+#projectpart{
+    width: 100%;
+    padding: 100px 0px;
+}
+#projectpart .serv-title{
+    width: 85%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+#projectpart .serv-title .right-icon{
+    margin: 0px 10px;
+    color: #fff;
+  }
+#projectpart .serv-title span,#projectpart .serv-title a{
+    color: #9D7F7F;
+    font-family: Roboto;
+font-size: 19px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+#projectpart .serv-title span{
+    color: #fff;
+}
+#projectpart .container-fluid {
+    width: 85%;
+    margin: 0px auto
+}
+#projectpart .container-fluid .col-xl-6{
+    color: #fff;
+    margin-top: 60px;
+}
+
+#projectpart .container-fluid  .pic-part{
+    position: relative;
+    height: 650px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+}
+#projectpart .container-fluid  .pic-part a{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+#projectpart .container-fluid .col-xl-6 h6{
+margin-top: 0%;
+margin-left: 10px;
+color: #9D7F7F;
+}
+#projectpart .container-fluid .col-xl-6 h3{
+font-size: 40px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 10px;
+}
+#projectpart .container-fluid .col-xl-6 p{
+font-family: Roboto;
+font-size: 19px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: rgb(248 246 246);
+margin: 20px 0px;
+margin-left: 10px;
+}
+#projectpart .container-fluid .col-xl-6 ul li{
+font-size: 18px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+}
+#projectpart .container-fluid .col-xl-6  a{
+padding: 15px 50px;
+margin-left: 10px;
+display: inline-block;
+margin-top: 10px;
+font-weight: 500;
+color: #fff;
+border-radius: 10000px;
+background-color: #470545;
+
+}
+
+@media(max-width:768px)
+{
+    #projectheader .head-con h1{
+        font-size: 40px;
+    }
+    #projectheader .head-con p{
+        font-size: 18px;
+    }
+    .ser-head-pic,.sec-head-pic{
+        display: none;
+    }
+    #projectpart .container-fluid .col-xl-6 h3{
+        font-size: 25px;
+    }
+    #projectpart .container-fluid .col-xl-6 p,#projectpart .container-fluid .col-xl-6 ul li{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    #projectpart .container-fluid .col-xl-6 h6 {
+        margin-top: 30px !important;
+    }
+    #projectpart .container-fluid .col-xl-6 a{
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+    #projectpart .container-fluid .pic-part{
+        height: 300px;
+    }
+    #projectpart .container-fluid  ul{
+        display: none;
+    }
+    #projectpart {
+        padding: 10px 0px;
+    }
+    #projectpart .col-inf{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+#itemcontent{
+    background-image: url(../../../assets/images/landing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    }
+#itemcontent .container-fluid{
+    width: 85%;
+    margin: auto;
+}
+#itemcontent h4{
+    width: 70% !important;
+    color: #FFFFFF;
+    font-size: 35px;
+    margin: 15px 0px;
+}
+#itemcontent  .col-xxl-6{
+    margin-top: 100px;
+}
+#itemcontent  .col-xxl-6:nth-child(1) img{
+    width: 95%;
+    height: 450px;
+    border-radius: 20px;
+}
+#itemcontent p{
+width: 70%;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+color: #a3a3a3;
+margin: 20px 0px;
+
+}
+#itemcontent .col-xl-6:nth-child(2){
+    padding-top: 35px;
+}
+#itemcontent .item-pictures{
+    width: 80%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#itemcontent .item-pictures img{
+    width: 22% !important;
+    height: 130px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+@media(max-width:768px){
+   
+    #itemcontent .item-pictures{
+        flex-wrap: wrap;
+    }
+    #itemcontent .item-pictures img{
+        width: 48% !important;
+        height: 100px;
+        margin-top: 20px;
+    }
+    #itemcontent .col-xxl-6:nth-child(1) img{
+        width: 100%;
+        height: 250px;
+    }
+    #itemcontent h4,#itemcontent p{
+        width: 100% !important;
+    }
+    #projectpart .container-fluid .col-xl-6 h6{
+        margin-top: 0px;
+    }
+    #projectpart .container-fluid .col-xl-6 h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #projectpart .container-fluid .col-xl-6 p{
+        line-height: 20px;
+    }
+    .ser-head-pic,.sec-head-pic{
+        display: none;
+    }
+}
+@media(min-width:768px) and (max-width:992px)
+{
+    #projectpart .container-fluid .col-xl-6 img {
+       width: 100%; 
+    }
+    #itemcontent .col-xxl-6:nth-child(1) img{
+        height: 450px;
+    }
+   .col-ul{
+        display: none !important;
+    }
+    #projectpart .container-fluid .pic-part{
+        height: 350px;
+    }
+    #projectpart .container-fluid .col-xl-6 h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #projectpart .container-fluid .col-xl-6 h6{
+        margin-top: 0px;
+    }
+    #projectpart .container-fluid .col-xl-6 h6{
+        margin-top: 15%;
+    }
+    #projectpart .container-fluid .col-xl-6 p,#projectpart .container-fluid .col-xl-6 ul li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #projectpart .container-fluid .col-xl-6 p{
+        line-height: 20px;
+    }
+    .ser-head-pic,.sec-head-pic{
+        display: none;
+    }
+        #projectpart .container-fluid .col-xl-6 img{
+        width: 100%;
+        height: 200px;
+    }
+    #itemcontent .item-pictures{
+        flex-wrap: wrap;
+    }
+    #itemcontent .item-pictures img{
+        width: 48% !important;
+        height: 100px;
+        margin-top: 20px;
+    }
+   
+    #itemcontent h4,#itemcontent p{
+        width: 100% !important;
+    }
+}
+@media(min-width:992px) and (max-width:1400px)
+{
+    #projectpart .container-fluid .col-xl-6 img {
+        width: 100%; 
+     }
+     .ser-head-pic,.sec-head-pic{
+        display: none;
+    }
+    #itemcontent .col-xxl-6:nth-child(1) img{
+        width: 90%;
+        height: 450px;
+    }
+    #itemcontent h4 {
+        width: 90% !important;
+    }
+    #itemcontent p{
+        width: 90%;
+    }
+    #projectpart .container-fluid .pic-part{
+        width: 50%;
+        height: 400px;
+        margin-top: 70px;
+    }
+    #projectpart .container-fluid  ul{
+        display: none;
+    }
+    #projectpart {
+        padding: 10px 0px;
+    }
+    #projectpart .col-inf{
+        width: 50%;
+        margin-left: 0px;
+    }
+}

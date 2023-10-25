@@ -1,0 +1,12 @@
+.home_Courses {
+  min-height: 100vh;
+  background: linear-gradient(
+    90.09deg,
+    #0e0eab 5.59%,
+    #2121b9 23.01%,
+    #6363f4 99.95%
+  );
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: relative;
+}

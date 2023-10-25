@@ -1,0 +1,83 @@
+.consultationSection {
+  min-height: 90vh;
+  background: url("../../assets/images/fiqure.png"),
+    linear-gradient(90.09deg, #0e0eab 5.59%, #2121b9 23.01%, #6363f4 99.95%);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: relative;
+}
+.consultationSection .consultationInfo {
+  transform: translateY(100px);
+}
+.consultationSection .consultationInfo h4 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0.5px;
+}
+.consultationSection .consultationInfo p {
+  color: #eaecf4;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+.consultationSection .startConsultation {
+  width: 1070px;
+  height: 400px;
+  background: #fff;
+  position: absolute;
+  bottom: -250px;
+  box-shadow: 0px 4px 41px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/images/consultationLogo.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.consultationSection .startConsultation h2 {
+  color: #1411a1;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+.consultationSection .startConsultation p {
+  color: #1411a1;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.consultationSection .startConsultation .startBtn {
+  color: #fff;
+  background: #1411a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 32px;
+}
+.consultationSection .consultationFooterWrapper {
+  position: relative;
+  bottom: 0px;
+}
+.consultationSection .consultationFooterWrapper {
+  color: #1411a1;
+  width: 100%;
+}
+.consultationFooterWrapper footer {
+  background-image: none !important;
+  background-size: 0 0 !important;
+  margin-top: 80px;
+}
+.consultationFooterWrapper footer .container .footerWrapper,
+.consultationFooterWrapper footer .container .footerWrapper .link,
+.consultationFooterWrapper footer .footerCopyRight,
+.consultationFooterWrapper footer .footerCopyRight .socialIconsWrapper .link {
+  color: #1411a1 !important;
+}

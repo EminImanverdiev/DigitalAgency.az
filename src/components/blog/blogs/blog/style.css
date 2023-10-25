@@ -1,0 +1,34 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.blog .blogImgWrapper {
+  width: 100%;
+  height: 400px;
+  background: #fff;
+}
+.blog .blogImgWrapper img {
+  width: 100%;
+  height: 100%;
+}
+.blog h4 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #fff;
+}
+.blog p {
+  color: #9a9ad9;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+  .blog .blogImgWrapper {
+    width: 100%;
+    height: 450px;
+  }
+}

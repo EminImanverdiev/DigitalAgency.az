@@ -1,0 +1,161 @@
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+  margin: 60px 0;
+}
+.videoWrapper video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 28px;
+  color: white;
+  font-size: 24px;
+}
+
+.overlay p {
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.startBtn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 2px solid #5252e4;
+  color: #5252e4;
+  transition: 1s;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.startBtn:hover {
+  color: #fff;
+  box-shadow: 0 0 10px #5252e4, 0 0 20px #5252e4, 0 0 40px #5252e4,
+    0 0 80px #5252e4, 0 0 160px #5252e4;
+}
+.startBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 0;
+  height: 100%;
+  background: #5252e4;
+
+  transform: skewX(35deg);
+  transition: 1s;
+  z-index: -1;
+}
+.startBtn:hover::before {
+  width: 100%;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
+  .videoWrapper {
+    width: 100%;
+    height: 220px;
+    margin: 20px 0;
+  }
+  .videoWrapper video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay {
+    gap: 0;
+  }
+  .overlay p {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  .overlay .startBtn {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 6px 16px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .overlay {
+    justify-content: flex-start;
+    padding-top: 20%;
+    gap: 16px;
+  }
+  .overlay p {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+  }
+  .overlay .startBtn {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 8px 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .overlay {
+    justify-content: flex-start;
+    padding-top: 20%;
+    gap: 16px;
+  }
+  .overlay p {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+  }
+  .overlay .startBtn {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 8px 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .overlay {
+    gap: 28px;
+  }
+  .overlay p {
+    font-size: 52px;
+    letter-spacing: 0.5px;
+  }
+  .overlay .startBtn {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    padding: 10px 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .overlay {
+    gap: 28px;
+  }
+  .overlay p {
+    font-size: 52px;
+    letter-spacing: 0.5px;
+  }
+  .overlay .startBtn {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    padding: 10px 30px;
+  }
+}

@@ -1,0 +1,47 @@
+.courseSliderWrapper {
+  padding-bottom: 40px;
+}
+
+.courseSliderWrapper .imgWrapper {
+  background: #fff;
+  border-radius: 24px;
+  width: 90% !important;
+  height: 469px;
+  overflow: hidden;
+}
+.courseSliderWrapper .imgWrapper img:hover {
+  transform: scale(1.1);
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+.courseSliderWrapper .imgWrapper img {
+  width: 100%;
+  height: 100%;
+}
+.courseSliderWrapper .sliderWrapper .slider {
+  width: 100% !important;
+}
+/* .courseSliderWrapper .sliderWrapper .slick-arrow {
+  display: none !important;
+} */
+
+.slick-dots li button:before {
+  font-size: 16px !important;
+  color: #fff !important;
+  margin-top: 40px;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
+  .courseSliderWrapper .imgWrapper {
+    width: 100% !important;
+  }
+  .coursesSection .sliderWrapper {
+    margin-top: 0;
+  }
+  .slick-dots li button:before {
+    font-size: 8px !important;
+    margin-top: 20px;
+  }
+}

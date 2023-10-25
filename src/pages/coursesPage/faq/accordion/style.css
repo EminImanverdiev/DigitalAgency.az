@@ -1,0 +1,28 @@
+.accordionWrapper {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 8px;
+  padding: 20px 0;
+}
+.accordionWrapper .accordion {
+  margin: 10px;
+}
+.accordionWrapper .accordion .accordionHeader {
+  background: #f8f9ff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.accordionWrapper .accordion .accordionHeader p {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #0e0eab;
+}
+.accordionWrapper .accordion .accordionBody p {
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: #404174;
+  padding: 0 20px;
+}

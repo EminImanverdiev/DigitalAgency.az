@@ -1,0 +1,152 @@
+.bgOverlay {
+  background-image: url("../../assets/images/Intro.jpg");
+  background-size: cover;
+  background-position: 50%;
+  width: 100%;
+  height: 971px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.contentFlex {
+  margin-top: 80px;
+}
+.contentFlex .contentWrapper {
+  width: 60%;
+}
+.contentFlex .contentWrapper p:first-child {
+  color: #ffffff;
+  font-family: "Quicksand", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 20.371px;
+  letter-spacing: 1.273px;
+  margin: 0px 0px 31px 0px;
+}
+.contentFlex .contentWrapper h2 {
+  color: #fff;
+  font-size: 54px;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+.contentFlex .contentWrapper p.contentInfo {
+  color: #ffffff;
+  max-width: 672px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 0px 0px 65px 0px;
+}
+.btnWrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  /* margin-top: 60px; */
+}
+
+.btnWrapper .downloadBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 38px 15px 38px;
+  font-family: "Inter", Sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.649px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.btnWrapper .downloadBtn:hover span {
+  animation: pxlSpin 0.5s 1;
+}
+
+.btnWrapper .videoBtn {
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  color: var(--secondary-color);
+}
+.btnWrapper .videoWrapper:hover span {
+  text-decoration: underline;
+}
+.btnWrapper .videoWrapper .videoBtn .playIcon {
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+.btnWrapper .videoWrapper .videoBtn:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btnWrapper .videoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btnWrapper .videoWrapper span {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0.1px;
+  color: #fdfdfd;
+}
+
+/* RESPONSIVENESS */
+
+/* @media only screen and (max-width: 600px) {
+  .mobileHeader {
+    display: block;
+  }
+  .mainHeader {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mobileHeader {
+    display: block;
+  }
+  .mainHeader {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobileHeader {
+    display: block;
+  }
+  .mainHeader {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mobileHeader {
+    display: none;
+  }
+  .mainHeader {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mobileHeader {
+    display: none;
+  }
+  .mainHeader {
+    display: block;
+  }
+} */

@@ -1,0 +1,55 @@
+.faqSection .faqBanner {
+  min-height: 70vh;
+  background: 
+  /* url("../../../assets/images/questionMark.png"), */ linear-gradient(
+    90.09deg,
+    #0e0eab 5.59%,
+    #2121b9 23.01%,
+    #6363f4 99.95%
+  );
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  /* background-size: 100% 400px; */
+  background-size: cover;
+  /* background-position-y: 20px; */
+}
+
+.faqSection .pageTitle {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 180px 0;
+  background-image: url("../../../assets/images/questionMark.png");
+  background-repeat: no-repeat;
+  background-size: 48%;
+  background-position: center;
+}
+.faqSection .pageTitle h5 {
+  font-size: 60px;
+  line-height: 76px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.faqSection .pageTitle p {
+  font-size: 29px;
+  line-height: 32px;
+  color: #eaecf4b2;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.faqSection footer {
+  background-image: url("../../../assets/images/lightFooterBg.png");
+}
+.faqSection footer .container .footerWrapper,
+.faqSection footer .container .footerWrapper .link,
+.faqSection footer .footerCopyRight,
+.faqSection footer .footerCopyRight .socialIconsWrapper .link {
+  color: #1411a1 !important;
+}

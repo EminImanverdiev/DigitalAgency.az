@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#respnavbar .container-fluid .navbar-brand img{
+    width: 140px;
+    margin-left: 30px;
+    }
+#respnavbar .offcanvas-body{
+    background-image: url(../../../assets/images/landing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    }
+#respnavbar .navbar,#respnavbar .offcanvas-header{
+    background-image: url(../../../assets/images/mobhead.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#respnavbar .navbar-toggler{
+   background-color: White !important;
+}
+.btn-close{
+    background-color: white; 
+    color: white;
+}
+#respnavbar .nav-item{
+        margin-top: 10px;
+        margin-left: 30px;
+        height: 60px;
+        overflow: hidden;
+        transition: 1s !important;
+    }
+    #respnavbar .nav-item .menu-item{
+        color: white;
+
+    }
+.active{
+        height: auto !important;
+        transition: 1s !important;
+        overflow: visible !important;
+    }
+    #respnavbar   .nav-link{
+        width: 90%;
+        display: flex !important;
+        justify-content: space-between ;
+        border-bottom: 1px solid rgb(202, 201, 201);
+        color: black;
+
+    }
+    #respnavbar   .nav-link.active{
+        color: #FF7268;
+    }
+    #respnavbar   .nav-item ul li{
+        width: 85%;
+        border-bottom: 1px solid rgb(202, 201, 201) !important;
+        padding: 8px 0px;
+    }
+    #respnavbar   .nav-item ul li a{
+        line-height: 36px;
+        font-weight: 700;
+        color: #333333;
+        font-size: 14px;
+    }
+    #respnavbar .nav-link span,i{
+        margin: 0px 5px;
+    }
+    #respnavbar .nav-link span{
+        font-weight: 700;
+        font-size: 14px;
+    }
+    #respnavbar .nav-link span{
+        color: white;
+    }
+    #respnavbar .nav-link i{
+        padding: 7px 9px;
+        background-color: rgb(222, 222, 222);
+        border-radius: 3px;
+        font-size: 13px;
+        color: black;
+    }
+    #respnavbar .sub-menu{
+        list-style: none;
+    }
+    @media(min-width:992px){
+        #respnavbar{
+            display: none;
+        }
+       
+    }
+    .search-box{
+        width: 35% !important;
+        display: flex;
+        justify-content: right;
+        gap: 10px;
+        align-items: center;
+    }
+    .search-box i{
+        padding: 12px 12px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 5px;
+
+    }
+    .right {
+        display: flex;
+        gap: 28px;
+        position: static;
+        z-index: 1000;
+      }
+      .right .searchIcon {
+        color: #fff;
+        font-size: 20px;
+      }
+      .right .toggle {
+        width: 96px;
+        height: 46px;
+        background: rgba(219, 0, 255, 1);
+        border-radius: 100px;
+        padding: 6px 8px;
+        cursor: pointer;
+      }
+       .right .toggle .courseIcon {
+        color: #fff;
+        font-size: 22px;
+      }
+      .right .toggle > div {
+        width: 36px;
+        height: 100%;
+        background: #1411a1;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .toggleActive {
+        margin-left: 40px;
+        transition: 0.4s;
+      }
+     .toggleDeActive {
+        margin-left: 0px;
+        transition: 0.4s;
+      }
+      #respnavbar .navbar-search{
+        width: 100% !important;
+      }

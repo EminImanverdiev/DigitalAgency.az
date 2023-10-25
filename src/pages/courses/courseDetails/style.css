@@ -1,0 +1,143 @@
+.courseDetailsSection {
+  min-height: 100vh;
+  background: url("../../../assets/images/fiqure.png"),
+    linear-gradient(90.09deg, #0e0eab 5.59%, #2121b9 23.01%, #6363f4 99.95%) !important;
+  background: #eef0f3;
+  background-repeat: no-repeat !important;
+  background-position: top left;
+  position: relative;
+}
+.courseDetailsSection .courseDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.courseDetailsSection .courseDetail .courseInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+}
+.courseDetailsSection .courseDetail .courseInfo h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0.5px;
+}
+.courseDetailsSection .courseDetail .courseInfo p {
+  max-width: 80%;
+  color: #eaecf4;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+.courseDetailsSection .courseDetail .courseInfo .applyBtn {
+  font-size: 20px;
+  line-height: 24px;
+  color: #1411a1;
+  text-decoration: none;
+  background: #fff;
+  padding: 16px 32px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+}
+.courseDetailsSection .courseDetail .courseInfo .applyBtn:hover {
+  color: #fff;
+  background: #1411a1;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.courseDetailsSection .courseDetail .courseImgWrapper {
+  width: 573px;
+  height: 329px;
+  border-radius: 24px;
+  background: #fff;
+  overflow: hidden;
+}
+.courseDetailsSection .courseDetail .courseImgWrapper img {
+  width: 100%;
+  height: 100%;
+}
+.courseDetailsSection .sliderWrapper {
+  margin: 60px 0;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+  .courseDetailsSection .courseDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0;
+  }
+  .courseDetailsSection .courseDetail .courseInfo {
+    width: 100%;
+  }
+  .courseDetailsSection .courseDetail .courseImgWrapper {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .courseDetailsSection .courseDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .courseDetailsSection .courseDetail .courseInfo {
+    width: 100%;
+  }
+  .courseDetailsSection .courseDetail .courseImgWrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .courseDetailsSection .courseDetail {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+    padding: 80px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .courseDetailsSection .courseDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 0;
+    padding: 80px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .courseDetailsSection .courseDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 0;
+    padding: 80px 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .courseDetailsSection .courseDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 80px 0;
+  }
+  .courseDetailsSection .courseDetail .courseInfo {
+    width: 50%;
+  }
+  .courseDetailsSection .courseDetail .courseImgWrapper {
+    width: 50%;
+  }
+}

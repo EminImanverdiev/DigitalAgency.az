@@ -1,0 +1,294 @@
+#apply{
+    background-image: url(../../../assets/images/landing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    }
+#apply .apply-con .col-xxl-6 {
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+}
+
+#apply .apply-con {
+    width: 100%;
+    margin: 80px auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0px 120px;
+}
+#apply .apply-con .col-xxl-6 h2 {
+    width: 55%;
+    margin: 80px 0px 30px 110px;
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#apply .apply-con .col-xxl-6 p{
+    width: 50%;
+    margin: 0px 0px 30px 115px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+}
+#apply .apply-con .col-xxl-6 .social-icons{
+    position: relative;
+    margin: 0px 0px 30px 100px;
+}
+#apply .apply-con .col-xxl-6 .social-icons i{
+    background: rgba(159, 144, 255, 0.6);
+    padding: 10px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+}
+#apply .apply-con .col-xxl-6:nth-child(1) img {
+    position: absolute;
+    width: 25%;
+    z-index: 0;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box{
+    width: 70%;
+    margin: 80px 0px;
+    height: 80%;
+    border-radius: 10px;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box .spec-box{
+    width: 50%;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box .spec-box input,#apply .apply-con .col-xxl-6:nth-child(2) .apply-box .spec-box textarea{
+    border: none;
+    width: 94%;
+    border: 1px solid rgba(225, 228, 237, 1);
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    resize: none;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box .spec-box textarea{
+    width: 195%;
+    height: 100px;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box .spec-box textarea:focus{
+    outline: none;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box .spec-box input::placeholder,#apply .apply-con .col-xxl-6:nth-child(2) .apply-box .spec-box textarea::placeholder{
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(0deg, #E1E4ED, #E1E4ED);
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box .spec-box  label{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgba(109, 117, 143, 1);
+    margin-top: 20px;
+    margin-left: 5px;
+    }
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box form{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, #E1E4ED, #E1E4ED);
+    box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+    border: 1px solid rgba(225, 228, 237, 1);
+    border-radius: 5px;
+    padding: 10px; 
+    position: relative;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .apply-box input{
+    width: 40%;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn{
+    width: 100% !important;
+    text-align: left;
+    position: relative;
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn i{
+    position: absolute;
+    left: 21%;
+    top: 39%;
+    color: rgba(255, 255, 255, 1);
+
+}
+#apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn input{
+    width: 26% !important;
+    background: rgba(150, 30, 146, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+}
+#apply .apply-con .row{
+    margin-left: none;
+    }
+#apply .apply-con .col-xxl-6:nth-child(2) input:focus,#apply .apply-con .col-xxl-6:nth-child(2) textarea:focus{
+    outline: none;
+}
+@media(max-width:768px){
+    #apply .apply-con{
+        padding: 20px 0px;
+    }
+    #apply .apply-con .col-xxl-6 h2{
+        width: 80%;
+        font-size: 25px;
+        margin: 20px auto;
+        line-height: 35px;
+    }
+    #apply .apply-con .col-xxl-6 p {
+        width: 80%;
+        margin: 0px auto;
+    }
+    #apply .apply-con .col-xxl-6 .social-icons{
+        width: 80% !important;
+        margin: 10px auto;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .apply-box{
+        width: 80%;
+        margin: auto;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .apply-box input::placeholder,#apply .apply-con .col-xxl-6:nth-child(2) .apply-box textarea::placeholder{
+        font-size: 14px;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .apply-box label{
+        font-size: 12x !important;
+        line-height: 0px;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn input{
+        width: 50% !important;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn i{
+     left: 40%;
+    }
+  
+    #apply .apply-con .row{
+        margin-right: calc(0 * var(--bs-gutter-x));
+        margin-left: calc(0 * var(--bs-gutter-x));
+    }
+}
+
+@media(min-width:768px) and (max-width:992px){
+    #apply .apply-con .col-xxl-6 {
+        width: 100%;
+    }
+    #apply .apply-con .col-xxl-6 h2{
+        width: 100%;
+        font-size: 23px;
+        margin: 20px auto;
+        line-height: 35px;
+    }
+    #apply .apply-con .col-xxl-6 p {
+        width: 100%;
+        margin: 0px auto;
+    }
+    #apply .apply-con .col-xxl-6 .social-icons{
+        width: 100% !important;
+        margin: 10px auto;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .apply-box{
+        width: 100%;
+        margin: 20px auto;
+    }
+   
+}
+@media(min-width:992px) and (max-width:1200px){
+    #apply .apply-con .col-xxl-6 {
+        width: 50%;
+    }
+    #apply .apply-con .col-xxl-6 h2{
+        width: 100%;
+        font-size: 35px;
+        margin: 70px auto 10px auto;
+        line-height: 45px;
+    }
+    #apply .apply-con .col-xxl-6 p{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .apply-box{
+        width: 100%;
+        margin: 20px auto;
+    }
+    #apply .apply-con .col-xxl-6 .social-icons{
+        width: 100% !important;
+        margin: 10px auto;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn input{
+        width: 50% !important;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box input::placeholder{
+        font-size: 12px;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn i{
+        left: 40%;
+       }
+}
+@media(min-width:1200px) and (max-width:1400px){
+    #apply .apply-con .col-xxl-6 {
+        width: 50%;
+    }
+    #apply .apply-con .col-xxl-6 h2{
+        width: 100%;
+        font-size: 45px;
+        margin: 70px auto 10px auto;
+        line-height: 45px;
+    }
+    #apply .apply-con .col-xxl-6 p{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .apply-box{
+        width: 100%;
+        margin: 20px auto;
+    }
+    #apply .apply-con .col-xxl-6 .social-icons{
+        width: 100% !important;
+        margin: 10px auto;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn input{
+        width: 50% !important;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box input::placeholder{
+        font-size: 14px;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn i{
+        left: 40%;
+       }
+}
+@media(min-width:1400px) and (max-width:1600px){
+    #apply .apply-con .col-xxl-6 {
+        width: 50%;
+    }
+    #apply .apply-con .col-xxl-6 h2{
+        width: 100%;
+        font-size: 45px;
+        margin: 70px auto 10px auto;
+        line-height: 45px;
+    }
+    #apply .apply-con .col-xxl-6 p{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .apply-box{
+        width: 100%;
+        margin: 20px auto;
+    }
+    #apply .apply-con .col-xxl-6 .social-icons{
+        width: 100% !important;
+        margin: 10px auto;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn input{
+        width: 50% !important;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box input::placeholder{
+        font-size: 14px;
+    }
+    #apply .apply-con .col-xxl-6:nth-child(2) .spec-box-btn i{
+        left: 40%;
+       }
+}
+@media(min-width:1600px) and (max-width:1800px){
+  
+}

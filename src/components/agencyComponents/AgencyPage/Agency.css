@@ -1,0 +1,903 @@
+#agencyheader {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+#agencyheader .link,#agencyabout .link,#agencyservice .link,#agencyslider .link{
+  transition: 500ms
+}
+#agencyheader .head-content .link,#agencyabout .link,#agencyservice .link,#agencyslider .link,#agencycontact .container-fluid .num-href{
+  padding: 15px 40px !important;
+}
+#agencyheader .head-content .link:hover,#agencyabout .link:hover,#agencyservice .link:hover,#agencyslider .link:hover{
+  background-color: white !important;
+  color: #961e92 !important;
+}
+#agency{
+background-image: url(../../../assets/images/landing.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+}
+#agency .line-pic {
+ display: none;
+}
+#agency .foot-bottom {
+  background: rgba(92, 3, 115, 1);
+}
+#agencyheader .head-pic {
+  width: 75%;
+  height: 100%;
+  right: 0%;
+  position: absolute;
+  opacity: 1;
+}
+#agencyheader .head-pic2 {
+  width: 40%;
+  height: 60%;
+  right: 10%;
+  top: 16%;
+  position: absolute;
+  object-fit: contain !important;
+  opacity: 1;
+}
+#agencyheader .head-content {
+  width: 40%;
+  margin-left: 8%;
+}
+
+#agencyheader .head-content h1 {
+  font-size: 70px;
+  font-weight: 600;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 30%;
+}
+
+#agencyheader .head-content h6 {
+  font-size: 64px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  line-height: 78px;
+}
+
+#agencyheader .head-content p {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+#agencyheader .head-content a,
+#agencyabout .container-fluid a,
+#agencyservice .container-fluid a,
+#resp-service .container-fluid a {
+  padding: 11px 35px;
+  background-color: #961e92;
+  border: 1px solid #505050;
+  border-radius: 70px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#agencyservice .container-fluid a,
+#resp-service .container-fluid a {
+  background-color: #961e92;
+  border: 1px solid #505050;
+  padding: 13px 30px;
+  margin: 10px 0px !important;
+}
+
+#agencyabout,
+#agencyteam,
+#agencyorganize {
+  width: 100%;
+  height: 70vh;
+}
+#agencyteam .row{
+  display: flex;
+  justify-content: space-between !important;
+  text-align: left;
+}
+#agencyteam .row .col-xxl-3{
+  width: 20%;
+  text-align: center;
+}
+#agencyteam .row .col-xxl-3 h6{
+  margin: 10px 0px;
+}
+#agencyteam .col-xxl-3 {
+  position: relative;
+}
+#agencyabout .container-fluid,
+#agencyservice .container-fluid,
+#agencyteam .container-fluid,
+#agencyorganize .container-fluid,
+#agencyemail .container-fluid,
+#resp-service .container-fluid {
+  width: 85%;
+  margin: 0px auto;
+  padding: 70px 10px;
+  position: relative;
+}
+
+#agencyemail .back-top{
+  width: 50%;
+  height: 100%;
+  background-image: url(../../../assets/images/back.png);
+  background-repeat: no-repeat;
+  background-size:  contain;
+  background-position: center;
+  left: 0%;
+  top: -17%;
+  z-index: 0;
+  position: absolute;
+}
+#agencyabout .container-fluid h6,
+#agencyservice .container-fluid h6,
+#resp-service .container-fluid h6 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+  color: rgba(183, 144, 183, 1);
+  margin: 20px 0px;
+}
+
+#agencyabout .container-fluid h2,
+#agencyservice .container-fluid h2,
+#resp-service .container-fluid h2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+  font-weight: 700;
+  margin: 30px 0px;
+}
+
+#agencyabout .container-fluid p,
+#agencyservice .container-fluid p,
+#resp-service .container-fluid p {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(183, 144, 183, 1);
+  margin: 35px 0px;
+}
+
+#agencyabout .container-fluid img {
+  width: 90%;
+  height: 100%;
+  border-radius: 50px 0px 50px 0px;
+  margin-top: 5px;
+}
+#resp-service {
+  display: none;
+}
+#agencyservice,
+#resp-service {
+  width: 100%;
+  padding: 100px 0px;
+  background: linear-gradient(
+    rgba(224, 220, 220, 0.1),
+    rgba(224, 219, 219, 0.1)
+  );
+}
+#agencyservice .col-xxl-6:nth-child(2),
+#resp-service .col-xxl-6:nth-child(1) {
+  margin-top: 10%;
+}
+#agencyservice .container-fluid .boxes,
+#resp-service .container-fluid .boxes {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#agencyservice .container-fluid .boxes .service-box,
+#resp-service .container-fluid .boxes .service-box {
+  width: 45%;
+  background: rgba(255, 255, 255, 1);
+  padding: 50px 25px;
+  border-radius: 12px;
+  margin-top: 20px;
+  transition: 200ms;
+}
+
+#agencyservice .container-fluid .boxes .service-box:hover,
+#resp-service .container-fluid .boxes .service-box:hover {
+  background: rgba(238, 45, 255, 1);
+  cursor: pointer;
+}
+
+#agencyservice .container-fluid .boxes .service-box:hover a,
+#agencyservice .container-fluid .boxes .service-box:hover h6,
+#agencyservice .container-fluid .boxes .service-box:hover h2,
+#agencyservice .container-fluid .boxes .service-box:hover p {
+  color: rgba(255, 255, 255, 1) !important;
+}
+#resp-service .container-fluid .boxes .service-box:hover a,
+#resp-service .container-fluid .boxes .service-box:hover h6,
+#resp-service .container-fluid .boxes .service-box:hover h2,
+#resp-service .container-fluid .boxes .service-box:hover p {
+  color: rgba(255, 255, 255, 1) !important;
+}
+#agencyservice .container-fluid .boxes .down-box,
+#resp-service .container-fluid .boxes .down-box {
+  position: relative;
+  top: 60px;
+}
+
+#agencyservice .container-fluid .boxes .service-box h6,
+#resp-service .container-fluid .boxes .service-box h6 {
+  color: rgba(51, 51, 51, 1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+#agencyservice .container-fluid .boxes .service-box a,
+#resp-service .container-fluid .boxes .service-box a {
+  background-color: transparent;
+  color: rgba(1, 1, 1, 1);
+  padding: 0px;
+  border: 1px solid #505050;
+  border: none !important;
+}
+
+#agencyservice .container-fluid .boxes .service-box p,
+#resp-service .container-fluid .boxes .service-box p {
+  color: rgba(119, 119, 119, 1);
+}
+
+#agencyorganize .container-fluid h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+#agencyorganize .container-fluid p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#agencyorganize .container-fluid .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  position: relative;
+}
+
+#agencyorganize .organize-box {
+  width: 16%;
+}
+
+#agencyorganize .organize-box h6 {
+  color: rgba(255, 255, 255, 1);
+  margin: 20px 30px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#agencyorganize .down-box {
+  position: relative;
+  top: 28%;
+  margin-bottom: 40%;
+}
+
+#agencyorganize .vector {
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  object-fit: contain;
+}
+
+#agencyorganize .vector:nth-child(2) {
+  left: 8.3%;
+  top: 36%;
+}
+
+#agencyorganize .vector:nth-child(6) {
+  left: 41.3%;
+  top: 28%;
+}
+
+#agencyorganize .vector:nth-child(8) {
+  left: 58.4%;
+  top: 28%;
+  transform: rotate(30deg);
+}
+
+#agencyorganize .vector:nth-child(4) {
+  width: 170px !important;
+  left: 24.9%;
+  top: 26%;
+  transform: rotate(30deg);
+}
+
+#agencyorganize .vector:nth-child(10) {
+  left: 75%;
+  top: 28%;
+}
+#agencyorganize .box-circle {
+  height: 130px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#agencyslider .container-slider {
+  width: 85%;
+  margin: auto;
+}
+
+#agencyslider .container-slider .slider-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+#agencyslider .container-slider .slider-head .head-right .link {
+  background: #961e92;
+  padding: 12px 36px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+}
+
+#agencyslider .container-slider .slider-head .head-left p {
+  color: #e5dee1;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+#agencyslider .container-slider .slider-head .head-left h6 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  color: #fff;
+}
+
+#agencyslider .container-fluid {
+  width: 100%;
+  margin: 50px 0px;
+}
+
+#agencyslider .slider-box {
+  position: relative;
+  border-radius: 10px;
+}
+#agencyslider .slider-box{
+  outline: none !important;
+}
+
+#agencyslider .slider-box .box-title {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  gap: 20px;
+  padding: 10px 20px;
+  top: 0px;
+  color: #fff;
+  align-items: center;
+}
+
+#agencyslider .slider-box .box-title .circle {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.slick-dots button {
+  display: none !important;
+}
+
+#agencyslider .slider-box .box-title .circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#agencyslider .slider-box img {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  filter: brightness(40%);
+  border-radius: 10px;
+  box-shadow: 0px 10px 0px rgb(3, 117, 179);
+}
+#agencyslider .slick-arrow{
+  display: none !important;
+}
+#agencyteam .team-title {
+  text-align: left;
+}
+#agencyteam .team-title h6 {
+  color: rgba(208, 188, 206, 1);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35px;
+}
+#agencyteam .team-title h4 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  color: rgba(255, 255, 255, 1);
+}
+#agencyteam .team-title p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 1);
+}
+#agencyteam img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 50px;
+  object-fit: cover;
+}
+#agencyteam h6 {
+  margin: 30px 0px 0px 0px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#agencyteam p {
+  color: rgba(208, 188, 206, 1);
+  font-weight: 500;
+}
+#agencyteam {
+  text-align: center;
+}
+#agencyemail .email-box form {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+  padding: 10px 20px;
+  position: relative !important;
+}
+#agencyemail .email-box form label {
+  color: rgba(109, 117, 143, 1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+#agencyemail .email-box form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(225, 228, 237, 1);
+  margin: 15px 0px;
+}
+#agencyemail .email-box form input:focus {
+  outline: none;
+}
+#agencyemail .email-box form .sub-box input {
+  width: 20%;
+  height: 40px;
+  padding-right: 15px;
+  background: rgba(150, 30, 146, 1);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+}
+#agencyemail .email-box form .sub-box i {
+  position: absolute;
+  top: 38%;
+  left: 93%;
+  color: rgba(255, 255, 255, 1);
+}
+.email-box form .sub-box {
+  width: 100%;
+  position: relative;
+  text-align: right;
+}
+#agencyemail {
+  text-align: center;
+}
+#agencyemail h2 {
+  width: 28%;
+  font-size: 48px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  line-height: 48px;
+  margin: 10px auto;
+}
+#agencyemail p {
+  color: rgba(186, 191, 207, 1);
+  margin: 20px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+#agencycontact .social-icons i {
+  padding: 15px;
+  border-radius: 50%;
+  background: rgba(159, 144, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
+}
+#agencycontact .container-fluid {
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 10%;
+  text-align: center;
+}
+#agencycontact .container-fluid h6 {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+#agencycontact .container-fluid h4 {
+  color: black;
+  font-size: 45px;
+}
+#agencycontact .container-fluid p {
+  width: 60%;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px auto;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+#agencycontact .container-fluid .num-href {
+  background: #a02394;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px 0px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 40px;
+  transition: 500ms;
+}
+#agencycontact .container-fluid .num-href:hover{
+  background-color: white !important;
+  color: #a02394;
+
+}
+#agencyorganize .box-circle .box-circle-icon{
+  font-size: 40px;
+  opacity: 0.8;
+
+}
+@media (max-width: 768px) {
+  #agencyservice {
+    display: none;
+  }
+
+  #wire1{
+    stroke: rgb(255, 255, 255) !important;
+  }
+ #resp-service .container-fluid .boxes{
+  width: 100%;
+  margin-top: 50px;
+ }
+ #agencyabout .container-fluid img{
+  width: 100%;
+  margin-top: 60px;
+ }
+
+ #agencysvg .svg2{
+  top: -28% !important;
+ }
+ #agencysvg{
+  display: none;
+ }
+  #agencyheader{
+    height: 83vh;
+  }
+  #agencyabout{
+    height: auto;
+  }
+  #resp-service .container-fluid .boxes{
+    margin-top: 0px;
+  }
+  #agencyorganize{
+    height: auto !important;
+  }
+  #agencyslider .container-slider{
+    margin: 60px auto;
+  }
+  #agencyheader .head-pic {
+    height: 91%;
+  }
+  #agencyheader .head-pic2{
+    display: none;
+  }
+  #agencyteam .row .col-xxl-3{
+    width: 100%;
+  }
+  #resp-service {
+    display: block;
+  }
+  #agencyheader .head-content {
+    width: 90%;
+    position: relative;
+  }
+  #agencyheader {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  #agencyheader .head-pic2 {
+    width: 60%;
+    object-fit: contain;
+  }
+  #agencyheader .head-content h6 {
+    font-size: 45px;
+  }
+  #agencyheader .head-content h1 {
+    font-size: 45px;
+  }
+  #agencyheader .head-content p {
+    font-size: 20px;
+  }
+
+  #agencyheader .head-pic {
+    width: 100%;
+  }
+  #agencyabout .container-fluid h2,
+  #agencyservice .container-fluid h2,
+  #resp-service .container-fluid h2 {
+    font-size: 35px;
+    margin: 10px 0px;
+  }
+  #agencyabout .container-fluid p,
+  #agencyservice .container-fluid p,
+  #resp-service .container-fluid p {
+    margin: 15px 0px;
+    font-size: 16px;
+  }
+  #agencyheader .head-content a,
+  #agencyabout .container-fluid a,
+  #agencyservice .container-fluid a,
+  #resp-service .container-fluid a {
+    padding: 10px 20px;
+    margin: 10px 0px;
+    position: relative;
+  }
+  #agencyservice .container-fluid .boxes .service-box,
+  #resp-service .container-fluid .boxes .service-box {
+    width: 100%;
+  }
+  #agencyservice .container-fluid .boxes .service-box:nth-child(1),
+  #resp-service .container-fluid .boxes .service-box:nth-child(1) {
+    bottom: -320px;
+  }
+  #agencyabout .container-fluid h6,
+  #agencyservice .container-fluid h6,
+  #resp-service .container-fluid h6 {
+    margin-top: 50px !important;
+  }
+  #agencyservice,
+  #resp-service {
+    padding: 30px 0px;
+  }
+  #agencyorganize .container-fluid h2 {
+    font-size: 35px;
+  }
+  #agencyorganize .container-fluid p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #agencyorganize .organize-box:nth-child(4),
+  #agencyorganize .organize-box:nth-child(5),
+  #agencyorganize .organize-box:nth-child(6),
+  #agencyorganize .organize-box:nth-child(7),
+  #agencyorganize .organize-box:nth-child(8),
+  #agencyorganize .organize-box:nth-child(10) {
+    display: none;
+  }
+  #agencyorganize .container-fluid .row {
+    width: 100%;
+  }
+  #agencyorganize .organize-box {
+    width: 10%;
+  }
+  #agencyslider .container-slider .slider-head .head-left p {
+    font-size: 25px;
+  }
+  #agencyslider .container-slider .slider-head .head-left h6 {
+    font-size: 30px;
+  }
+  #agencyslider .container-slider .slider-head .head-right {
+    width: 50% !important;
+  }
+  #agencyslider .container-slider .slider-head .head-right a {
+    padding: 10px 20px;
+  }
+  #agencyteam {
+    height: 276vh;
+  }
+  #agencyemail h2 {
+    width: 90%;
+    font-size: 35px;
+  }
+  #agencyemail .email-box form {
+    width: 90%;
+  }
+  #agencyemail .email-box form .sub-box input {
+    width: 30%;
+  }
+  #agencyemail .email-box form .sub-box i {
+    left: 90%;
+  }
+  #agencycontact .container-fluid {
+    width: 90%;
+  }
+  #agencycontact .container-fluid p {
+    width: 90%;
+  }
+  #agencycontact .container-fluid h4 {
+    font-size: 35px;
+  }
+  #agencyorganize .box-circle {
+    width: 70px;
+    height: 70px;
+  }
+  #agencyorganize .down-box {
+    top: 80%;
+  }
+  #agencyorganize .vector {
+    display: none;
+  }
+  #agencyorganize .organize-box h6 {
+    display: none;
+  }
+  .row > * {
+    padding-left: calc(var(--bs-gutter-x) * 0);
+  }
+  #agencyservice .container-fluid .boxes {
+    position: static !important;
+  }
+  #agencyservice .container-fluid .boxes .service-box {
+    margin: 50px 0px;
+  }
+  #resp-service .container-fluid .boxes .down-box {
+    position: static;
+  }
+  #resp-service .col-xxl-6:nth-child(1) {
+    margin-top: 28%;
+  }
+  #agencyslider .container-slider .slider-head .head-right{
+    width: 100% !important;
+    text-align: right;
+  }
+  #agencyslider .container-slider .slider-head .head-left h6{
+    font-size: 22px;
+  }
+  #agencyemail .email-box form{
+    width: 97%;
+  }
+ 
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #agencyservice {
+    display: none;
+  }
+  #agencyheader .head-pic2{
+    right: 2%;
+    top: 3%;
+  }
+  #resp-service {
+    display: block;
+  }
+  #resp-service .col-xxl-6:nth-child(2){
+    margin-top: 15% !important;
+  }
+ 
+  #agencyheader .head-pic {
+    height: 54vh;
+  }
+  #agencyabout,
+  #agencyteam,
+  #agencyorganize {
+    height: auto !important;
+  }
+  #agencyemail .email-box form {
+    width: 70%;
+  }
+  #agencyemail h2 {
+    width: 70%;
+  }
+  #agencycontact .container-fluid p {
+    width: 90%;
+  }
+  #agencyservice .col-xxl-6:nth-child(2) {
+    margin-top: 10%;
+  }
+  #agencyabout .col-xxl-6:nth-child(2) {
+    margin-top: 10%;
+  }
+  #agencyteam .row .col-xxl-3{
+    width: 50%;
+  }
+  #agencyorganize{
+    display: none;
+  }
+
+}
+@media (min-width: 992px) and (max-width: 1500px) {
+  #agencyservice {
+    display: none;
+  }
+  #resp-service .col-xxl-6:nth-child(2){
+    margin-top: 15%;
+  }
+  #agencyheader .head-pic {
+    width: 80%;
+    height: 65vh;
+  }
+  #agencyheader .head-pic2{
+    right: 9%;
+    top: 10%;
+  }
+  #agencyteam .row .col-xxl-3{
+    width: 30%;
+  }
+  #resp-service {
+    display: block;
+  }
+  #agencyabout .container-fluid img {
+    width: 90%;
+  }
+
+  #resp-service .col-xxl-6 {
+    width: 100%;
+  }
+  #agencyabout,
+  #agencyteam,
+  #agencyorganize {
+    height: auto !important;
+  }
+  #agencyemail .email-box form {
+    width: 70%;
+  }
+  #agencyemail h2 {
+    width: 70%;
+  }
+  #agencycontact .container-fluid p {
+    width: 90%;
+  }
+  #agencyservice .col-xxl-6:nth-child(2) {
+    margin-top: 10%;
+  }
+  #agencyabout .col-xxl-6:nth-child(2) {
+    margin-top: 10%;
+  }
+}
+.link{
+  text-decoration: none;
+}
+.circle1{
+ box-shadow: 100px 100px 1000px black;
+}
+#agencysvg{
+  width: 100%;
+}
+#agencysvg .svg2{
+  position: fixed;
+  transform: rotate(90deg);
+  z-index: 0;
+  left: -16.7%;
+  top: 0%;
+}

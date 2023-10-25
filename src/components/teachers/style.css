@@ -1,0 +1,51 @@
+.teachersSliderWrapper {
+  margin: 80px 0;
+  padding: 80px 0;
+  /* background: red; */
+}
+.teachersSliderWrapper h5 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.teachersSliderWrapper .imgWrapper {
+  background: #fff;
+  border-radius: 24px;
+  width: 95% !important;
+  height: 449px;
+}
+.teachersSliderWrapper .sliderWrapper .slider {
+  width: 100% !important;
+}
+.teachersSliderWrapper .sliderWrapper .slick-arrow {
+  display: none !important;
+}
+
+.slick-dots li button:before {
+  font-size: 16px !important;
+  color: #fff !important;
+  margin-top: 40px;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
+  .teachersSliderWrapper .sliderWrapper {
+    margin-top: 0;
+  }
+  .slick-dots li button:before {
+    font-size: 8px !important;
+    margin-top: 20px;
+  }
+  .teachersSliderWrapper {
+    padding: 0;
+  }
+  .teachersSliderWrapper h5 {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+}

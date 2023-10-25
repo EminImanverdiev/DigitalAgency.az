@@ -1,0 +1,84 @@
+.graduatesSection {
+  min-height: 100vh;
+  background: url("../../assets/images/fiqure.png"),
+    linear-gradient(90.09deg, #0e0eab 5.59%, #2121b9 23.01%, #6363f4 99.95%);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: relative;
+}
+.graduatesSection .graduatesHeading {
+  max-width: 612px;
+  margin: 80px 0;
+  padding: 80px 0;
+}
+.graduatesSection .graduatesHeading h5 {
+  font-size: 50px;
+  line-height: 76px;
+  font-weight: 700;
+  color: #fff;
+}
+.graduatesSection .graduatesHeading p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #eaecf4;
+  margin-top: 12px;
+}
+.graduatesSection .graduatesWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 171px;
+  padding: 80px 0;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 600px) {
+  .graduatesSection .graduatesHeading {
+    margin: 0;
+  }
+  .graduatesSection .graduatesHeading p {
+    font-size: 16px;
+  }
+  .graduatesSection .graduatesWrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 60px;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .graduatesSection .graduatesWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 100px;
+    padding: 80px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .graduatesSection .graduatesWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 171px;
+    padding: 80px 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .graduatesSection .graduatesWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 171px;
+    padding: 80px 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .graduatesSection .graduatesWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 80px;
+    padding: 80px 0;
+  }
+}

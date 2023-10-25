@@ -1,0 +1,149 @@
+#intern{
+    background-image: url(../../../assets/images/landing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    }
+.inner-intern .container-fluid .row{
+    width: 100%;
+    margin: 50px 0px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.inner-intern .container-fluid .col-xxl-6:nth-child(1){
+    width: 50% !important;
+    height: 550px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+}
+.inner-intern .container-fluid .col-xxl-6:nth-child(2){
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+.inner-intern .container-fluid .col-xxl-6 .inp-box{
+        width: 60%;
+        height: 80%;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(0deg, #E1E4ED, #E1E4ED);
+        box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+        border: 1px solid rgba(225, 228, 237, 1);
+        border-radius: 5px;
+        padding: 10px; 
+}
+.inner-intern .container-fluid .col-xxl-6 .inp-box input{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(225, 228, 237, 1);
+    margin: 10px 0px;
+    padding: 10px 5px;
+}
+.inner-intern .container-fluid .col-xxl-6 .inp-box input::placeholder{
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(0deg, #E1E4ED, #E1E4ED);
+
+}
+.inner-intern .container-fluid .col-xxl-6 .inp-box input:focus{
+    outline: none;
+}
+.inner-intern .container-fluid .col-xxl-6 .inp-box  label{
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+margin-left: 5px;
+color: rgba(109, 117, 143, 1);
+}
+.inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box{
+    width: 100%;
+    text-align: right;
+    position: relative;
+}
+.inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box .fa-arrow-right{
+    position: absolute;
+    right: 1.8%;
+    color: rgba(255, 255, 255, 1);
+    top: 35%;
+}
+.inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box .button{
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 600;
+    background: rgba(150, 30, 146, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+@media(max-width:768px){
+    .inner-intern .container-fluid .col-xxl-6:nth-child(1){
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .inner-intern .container-fluid .col-xxl-6 .inp-box{
+        width: 65%;
+        height: 100%;
+
+    }
+    .inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box .button{
+        width: 35%;
+    }
+    .inner-intern .container-fluid .col-xxl-6:nth-child(2){
+        left: 0%;
+        top: 30%;
+    }
+    .inner-intern .container-fluid .col-xxl-6 .inp-box{
+        width: 100%;
+        margin: auto;
+    }
+  
+}
+@media(min-width:768px) and (max-width:992px){
+    .inner-intern .container-fluid .col-xxl-6 .inp-box{
+        width: 100%;
+    }
+    .inner-intern .container-fluid .col-xxl-6:nth-child(1){
+        height: 400px;
+    }
+    .inner-intern .container-fluid .col-xxl-6:nth-child(2){
+        top: 13%;
+    }
+    .inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box .button{
+        width: 30%;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .inner-intern .container-fluid .col-xxl-6 .inp-box{
+        width: 100%;
+    }
+    .inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box .button{
+        width: 25%;
+    }
+}
+@media(min-width:1200px) and (max-width:1400px){
+    .inner-intern .container-fluid .col-xxl-6 .inp-box{
+        width: 80%;
+    }
+    .inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box .button{
+        width: 25%;
+    }
+}
+@media(min-width:1400px) and (max-width:1600px){
+    .inner-intern .container-fluid .col-xxl-6 .inp-box{
+        width: 70%;
+    }
+    .inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box .button{
+        width: 25%;
+    }
+}
+@media(min-width:1600px) and (max-width:1800px){
+    .inner-intern .container-fluid .col-xxl-6 .inp-box{
+        width: 50%;
+    }
+    .inner-intern .container-fluid .col-xxl-6 .inp-box .sub-box .button{
+        width: 28%;
+    }
+}
